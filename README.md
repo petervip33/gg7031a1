@@ -5,34 +5,36 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: sunny01美国usc, server: yii1.vipvip11.top, port: 20000, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny01香港Hk, server: yii16.vipvip11.top, port: 30016, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
   - {name: sunny02新加坡sgc, server: yii2.vipvip11.top, port: 20800, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
   - {name: sunny03香港Hk, server: yii4.vipvip11.top, port: 20030, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny04香港hk, server: yii8.vipvip11.top, port: 22788, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny04美国us, server: yii8.vipvip11.top, port: 22788, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
   - {name: sunny05新加坡sg, server: yii10.vipvip11.top, port: 20900, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny06美国usc, server: yii11.vipvip11.top, port: 22789, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny07台湾tw, server: yii13.vipvip11.top, port: 20029, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny08新加坡sg, server: yii14.vipvip11.top, port: 30114, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny09台湾tw, server: yii15.vipvip11.top, port: 32113, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny10香港hk, server: yii17.vipvip11.top, port: 30017, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny11日本jp, server: yii18.vipvip11.top, port: 32115, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny12香港hk, server: yii19.vipvip11.top, port: 30019, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny13香港hk, server: yii20.vipvip11.top, port: 30010, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny14香港hkc, server: yii21.vipvip11.top, port: 20279, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny06新加坡sg, server: yii14.vipvip11.top, port: 30114, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny07香港hk, server: yii17.vipvip11.top, port: 30017, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny08日本jp, server: yii18.vipvip11.top, port: 32115, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny09香港hk, server: yii19.vipvip11.top, port: 30019, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny10香港hk, server: yii20.vipvip11.top, port: 30010, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny11香港hkc, server: yii21.vipvip11.top, port: 20279, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny12美国usc, server: yii11.vipvip11.top, port: 22789, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny13美国usc, server: yii1.vipvip11.top, port: 20000, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny14日本jp, server: yii05.vipvip11.top, port: 10035, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
   - {name: sunny15日本jp, server: yii24.vipvip11.top, port: 23006, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny16台湾tw, server: yii25.vipvip11.top, port: 32112, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny17日本jp, server: yii26.vipvip11.top, port: 20026, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny18新加坡sg, server: yii27.vipvip11.top, port: 30113, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny19Hk, server: yii29.vipvip11.top, port: 26001, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny20Hk, server: yii30.vipvip11.top, port: 26002, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny21台湾tw, server: yii31.vipvip11.top, port: 32113, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny22日本Jp, server: yii32.vipvip11.top, port: 20179, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny23俄罗斯r, server: yii33.vipvip11.top, port: 34115, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny24jp, server: yii34.vipvip11.top, port: 20018, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny25英国un, server: yii35.vipvip11.top, port: 31018, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny26日本jp, server: yii36.vipvip11.top, port: 20017, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny27韩国Kr, server: yii37.vipvip11.top, port: 20779, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
-  - {name: sunny28香港hk, server: yii38.vipvip11.top, port: 30002, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny16日本jp, server: yii26.vipvip11.top, port: 20026, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny17香港Hk, server: yii29.vipvip11.top, port: 26001, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny18香港Hk, server: yii30.vipvip11.top, port: 26002, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny19韩国Kr, server: yii37.vipvip11.top, port: 20779, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny20日本Jp, server: yii32.vipvip11.top, port: 20179, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny21俄罗斯r, server: yii33.vipvip11.top, port: 34115, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny22台湾tw, server: yii13.vipvip11.top, port: 20029, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny23台湾tw, server: yii25.vipvip11.top, port: 32112, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny24台湾tw, server: yii15.vipvip11.top, port: 32113, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny25新加坡sg, server: yii27.vipvip11.top, port: 30113, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny26台湾tw, server: yii31.vipvip11.top, port: 32113, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny27日本jp, server: yii34.vipvip11.top, port: 20018, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny28英国un, server: yii35.vipvip11.top, port: 31018, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny29日本jp, server: yii36.vipvip11.top, port: 20017, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
+  - {name: sunny30香港hk, server: yii38.vipvip11.top, port: 30002, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22771:Yx3vyD, obfs-param: 3203522771.microsoft.com}
   - {name: 11y7031, server: www.google.com, port: 10000, type: ssr, cipher: chacha20-ietf, password: 1s6GHJk, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 888:8bijoaq4so, obfs-param: 82de3888.microsoft.com}
 proxy-groups:
   - name: Proxies节点选择
@@ -43,34 +45,36 @@ proxy-groups:
       - SG
       - TW
       - US
-      - sunny01美国usc
+      - sunny01香港Hk
       - sunny02新加坡sgc
       - sunny03香港Hk
-      - sunny04香港hk
+      - sunny04美国us
       - sunny05新加坡sg
-      - sunny06美国usc
-      - sunny07台湾tw
-      - sunny08新加坡sg
-      - sunny09台湾tw
+      - sunny06新加坡sg
+      - sunny07香港hk
+      - sunny08日本jp
+      - sunny09香港hk
       - sunny10香港hk
-      - sunny11日本jp
-      - sunny12香港hk
-      - sunny13香港hk
-      - sunny14香港hkc
+      - sunny11香港hkc
+      - sunny12美国usc
+      - sunny13美国usc
+      - sunny14日本jp
       - sunny15日本jp
-      - sunny16台湾tw
-      - sunny17日本jp
-      - sunny18新加坡sg
-      - sunny19Hk
-      - sunny20Hk
-      - sunny21台湾tw
-      - sunny22日本Jp
-      - sunny23俄罗斯r
-      - sunny24jp
-      - sunny25英国un
-      - sunny26日本jp
-      - sunny27韩国Kr
-      - sunny28香港hk
+      - sunny16日本jp
+      - sunny17香港Hk
+      - sunny18香港Hk
+      - sunny19韩国Kr
+      - sunny20日本Jp
+      - sunny21俄罗斯r
+      - sunny22台湾tw
+      - sunny23台湾tw
+      - sunny24台湾tw
+      - sunny25新加坡sg
+      - sunny26台湾tw
+      - sunny27日本jp
+      - sunny28英国un
+      - sunny29日本jp
+      - sunny30香港hk
       - 11y7031
   - name: Netflix
     type: select
@@ -107,40 +111,45 @@ proxy-groups:
   - name: HK
     type: select
     proxies:
+      - sunny01香港Hk
       - sunny03香港Hk
-      - sunny04香港hk
+      - sunny07香港hk
+      - sunny09香港hk
       - sunny10香港hk
-      - sunny12香港hk
-      - sunny13香港hk
-      - sunny14香港hkc
-      - sunny28香港hk
+      - sunny11香港hkc
+      - sunny17香港Hk
+      - sunny18香港Hk
+      - sunny30香港hk
   - name: JP
     type: select
     proxies:
-      - sunny11日本jp
+      - sunny08日本jp
+      - sunny14日本jp
       - sunny15日本jp
-      - sunny17日本jp
-      - sunny22日本Jp
-      - sunny26日本jp
+      - sunny16日本jp
+      - sunny20日本Jp
+      - sunny27日本jp
+      - sunny29日本jp
   - name: SG
     type: select
     proxies:
       - sunny02新加坡sgc
       - sunny05新加坡sg
-      - sunny08新加坡sg
-      - sunny18新加坡sg
+      - sunny06新加坡sg
+      - sunny25新加坡sg
   - name: TW
     type: select
     proxies:
-      - sunny07台湾tw
-      - sunny09台湾tw
-      - sunny16台湾tw
-      - sunny21台湾tw
+      - sunny22台湾tw
+      - sunny23台湾tw
+      - sunny24台湾tw
+      - sunny26台湾tw
   - name: US
     type: select
     proxies:
-      - sunny01美国usc
-      - sunny06美国usc
+      - sunny04美国us
+      - sunny12美国usc
+      - sunny13美国usc
   - name: CN
     type: select
     proxies:
